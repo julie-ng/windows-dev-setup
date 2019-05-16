@@ -99,6 +99,11 @@ source $ZSH/oh-my-zsh.sh
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
 fpath=($fpath "/home/jng/.zfunctions")
 
+# Load our custom aliases
+if [ -f ~/.bash_aliases ]; then
+	. ~/.bash_aliases
+fi
+
 # Set Spaceship ZSH as a prompt
 # autoload -U promptinit; promptinit
 # prompt spaceship
