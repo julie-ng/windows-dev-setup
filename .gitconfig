@@ -1,6 +1,7 @@
 [core]
         autocrlf = input
         pager = less -iXFR
+        editor = vim
 [color]
         ui = always
 [apply]
