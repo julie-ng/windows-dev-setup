@@ -18,3 +18,6 @@ alias lp="git lp"
 
 # File size
 alias fs="stat -f \"%z bytes\""
+
+# Misc
+alias k="kubectl"

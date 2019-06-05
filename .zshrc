@@ -5,6 +5,10 @@
 export PATH=$HOME/bin:$PATH
 export GPG_TTY=$(tty)
 
+# Add env for docker
+export PATH=$HOME/.local/bin:$PATH
+export DOCKER_HOST=tcp://localhost:2375
+
 # Path to your oh-my-zsh installation.
 export ZSH="/home/jng/.oh-my-zsh"
 
