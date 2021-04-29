@@ -1,3 +1,5 @@
+### Archived Repo - because I went back to a mac 😜 after 6 months with WSL2
+
 # Julie's Bash on Windows
 
 When a mac developer codes on a Windows...
